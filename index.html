@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency converter</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class=" h-100 bg-success">
+  <h1 class="sr-only">Time calculator from distance and speed</h1>
+  <div class="time__section container-fluid text-center text-white">
+    <h2 class="time__header p-3 h1">Who is the first?</h2>
+
+    <form class="time__form mx-auto w-50" action="https://echo.htmlacademy.ru" method="GET">
+      <div class="form-group d-md-flex mx-auto flex-nowrap">
+        <label class="distance__label h3" for="#distance">Distance</label>
+        <input class="distance__input form-control mx-md-3 mb-2 w-100" type="text" id="distance" name="distance" placeholder="100" aria-label="Input a distance" required>
+        <button class="distance__button btn btn-primary h3" type="submit">Convert</button>
+      </div>
+    </form>
+
+    <div class="row">
+      <div class="col p-3 border-primary rounded">
+        <img src="img/walking.png" alt="Walking" width="150" height="150">
+        <h3 class="h1 p-3">Walk</h3>
+        <div class="result-walk h1">251</div>
+      </div>
+
+      <div class="col p-3 border-primary rounded">
+        <img src="img/bicycle.png" alt="Walking" width="150" height="150">
+        <h3 class="h1 p-3">Bike</h3>
+        <div class="result-walk h1">251</div>
+      </div>
+
+      <div class="col p-3 border-primary rounded">
+        <img src="img/car.png" alt="Walking" width="150" height="150">
+        <h3 class="h1 p-3">Car</h3>
+        <div class="result-walk h1">251</div>
+      </div>
+
+      <div class="col p-3 border-primary rounded">
+        <img src="img/world.png" alt="Walking" width="150" height="150">
+        <h3 class="h1 p-3">Plane</h3>
+        <div class="result-walk h1">251</div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  
+  <script src="js/scripts.js"></script>
+</body>
+</html>

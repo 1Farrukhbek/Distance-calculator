@@ -16,7 +16,7 @@
     <form class="time__form mx-auto w-50" action="https://echo.htmlacademy.ru" method="GET">
       <div class="form-group d-md-flex mx-auto flex-nowrap">
         <label class="distance__label h3" for="#distance">Distance</label>
-        <input class="distance__input form-control mx-md-3 mb-2 w-100" type="text" id="distance" name="distance" placeholder="100" aria-label="Input a distance" required>
+        <input class="distance__input form-control mx-md-3 mb-2 w-100" type="number" step="0.01" min="1" max="99999999"  id="distance" name="distance" placeholder="Please enter in kilometres!" aria-label="Input a distance" required>
         <button class="distance__button btn btn-primary h3" type="submit">Convert</button>
       </div>
     </form>
